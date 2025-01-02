@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #01443c;
+  --secondary: #f2ead9;
+
+  --background: #ffffff;
+  --foreground: #01443c;
+}
+
+html body {
+  @apply bg-background text-foreground antialiased;
+  font-family: 'Gabarito', sans-serif;
+}
